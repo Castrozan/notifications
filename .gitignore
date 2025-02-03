@@ -1,0 +1,28 @@
+# .gitignore
+
+# Ignore the .env file (contains sensitive information)
+.env
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore logs and output files
+*.log
+output.log
+
+# Ignore local development files
+*.swp
+*.swo
