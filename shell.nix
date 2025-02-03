@@ -6,6 +6,7 @@ pkgs.mkShell {
     pkgs.python311  # Use Python 3.11 (or another version if preferred)
     pkgs.python311Packages.requests  # Python requests library
     pkgs.python311Packages.twilio    # Python twilio library
+    pkgs.python311Packages.python-dotenv  # Python dotenv library
   ];
 
   # Set up the environment (optional)
